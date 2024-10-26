@@ -99,7 +99,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (
-    BASE_DIR / 'staticfiles',
+    BASE_DIR / 'static',
 )
 
 MEDIA_URL = 'media/'
