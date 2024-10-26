@@ -4,7 +4,7 @@ from django.db import models
 from albums.choices import GenreChoices
 
 
-class AlbumName(models.Model):
+class Album(models.Model):
     album_name = models.CharField(
         max_length=30,
         unique=True,
